@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="server.serverFrame">
+  <grid id="27dc6" binding="serverPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="f2d9b" class="javax.swing.JLabel" binding="serverTitle">
+        <constraints border-constraint="North"/>
+        <properties>
+          <focusTraversalPolicyProvider value="true"/>
+          <font size="28"/>
+          <horizontalAlignment value="0"/>
+          <text value="服务器端"/>
+        </properties>
+      </component>
+      <component id="ea349" class="javax.swing.JTextArea" binding="server_Message">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <margin top="10" left="30" bottom="60" right="30"/>
+        </properties>
+      </component>
+      <grid id="e8c35" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a409e" class="javax.swing.JButton" binding="launch_Button">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="4"/>
+              <margin top="10" left="30" bottom="10" right="30"/>
+              <text value="启动"/>
+              <verticalAlignment value="3"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+          <component id="ff42d" class="javax.swing.JButton" binding="exit_Button">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <margin top="10" left="30" bottom="10" right="30"/>
+              <text value="断开"/>
+            </properties>
+          </component>
+          <component id="6a2fd" class="javax.swing.JLabel" binding="server_Port">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="端口"/>
+            </properties>
+          </component>
+          <component id="5dfd" class="javax.swing.JTextField" binding="ipField">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="1e7e6" class="javax.swing.JLabel" binding="server_Ip">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="IP"/>
+            </properties>
+          </component>
+          <component id="390b5" class="javax.swing.JTextField" binding="portField">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
